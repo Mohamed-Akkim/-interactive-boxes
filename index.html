@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bundle & Save</title>
+  <link rel="stylesheet" href="styles.css" />
+ 
+ 
+</head>
+<body>
+  <div class="container">
+    <h2 class="line-text">YAY! It's BOGO</h2>
+
+    <!-- 1 Unit -->
+    <div class="option" data-price="10.00">
+      <div class="bundle-header">
+        <div class="bundle-left">
+          <input type="radio" name="bundle" />
+          <label class="bundle-info">1 Unit <span class="discount-tag">10% Off</span></label>
+        </div>
+        <div class="bundle-price">
+          <div class="current">$10.00 USD</div>
+          <div class="old">$24.00 USD</div>
+        </div>
+      </div>
+      <div class="selectors">
+        <div class="row header">
+          <div></div>
+          <div>Size</div>
+          <div style="margin-left: 35px;">Colour</div>
+        </div>
+        <div class="row">
+          <div>#1</div>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>White</option></select>
+        </div>
+        <div class="row">
+          <div>#2</div>
+     <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>White</option></select>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 Unit -->
+    <div class="option" data-price="18.00">
+      <div class="tag-label">MOST POPULAR</div>
+      <div class="bundle-header">
+        <div class="bundle-left">
+          <input type="radio" name="bundle" />
+          <label class="bundle-info">2 Unit <span class="discount-tag">20% Off</span></label>
+        </div>
+        <div class="bundle-price">
+          <div class="current">$18.00 USD</div>
+          <div class="old">$48.00 USD</div>
+        </div>
+      </div>
+      <div class="selectors">
+        <div class="row header">
+          <div></div>
+             <div>Size</div>
+          <div style="margin-left: 35px;">Colour</div>
+        </div>
+        <div class="row">
+          <div>#1</div>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>White</option></select>
+        </div>
+        <div class="row">
+          <div>#2</div>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>White</option></select>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 Unit -->
+    <div class="option" data-price="24.00">
+      <div class="tag-label">BEST VALUE</div>
+      <div class="bundle-header">
+        <div class="bundle-left">
+          <input type="radio" name="bundle" />
+          <label class="bundle-info">3 Unit <span class="discount-tag">30% Off</span></label>
+        </div>
+        <div class="bundle-price">
+          <div class="current">$24.00 USD</div>
+          <div class="old">$72.00 USD</div>
+        </div>
+      </div>
+      <div class="selectors">
+        <div class="row header">
+          <div></div>
+          <div>Size</div>
+          <div style="margin-left: 35px;">Colour</div>
+        </div>
+        <div class="row">
+          <div>#1</div>
+       <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>White</option></select>
+        </div>
+        <div class="row">
+          <div>#2</div>
+        <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>White</option></select>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      <div class="left">Free Delivery</div>
+      <div class="right">Total : $<span id="total-price">0.00</span> USD</div>
+    </div>
+
+    <button class="add-to-cart">+ Add to Cart</button>
+    <footer >© Powered by Pumper</footer>
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>
